@@ -45,17 +45,17 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        print("Driving 🚗")
+        print("Driving")
 
 
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print("Flying")
 
 
 class Boat(Vehicle):
     def move(self):
-        print("Sailing 🚢")
+        print("Sailing")
 
 
 # Polymorphic behavior in action
